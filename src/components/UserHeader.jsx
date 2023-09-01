@@ -38,7 +38,10 @@ const copyUrl = () => {
             <Avatar 
               name="Mark Zuckerberg"
               src="/zuck-avatar.png"
-              size={"xl"}
+              size={{
+                base: "md",
+                md: "xl",
+              }}
             />
         </Box>
       </Flex>
